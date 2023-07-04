@@ -382,6 +382,10 @@
   margin: 0 0 32px;
 }
 
+.about__paragraph:last-child {
+  margin-bottom: 0;
+}
+
 .about__circle {
   background-color: #2f80ed;
   width: 495px;
@@ -399,6 +403,8 @@
   background-color: #1f1f1f;
   color: #fff;
   padding: 60px 102px 60px 80px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__columns {
@@ -406,19 +412,19 @@
 }
 
 .footer__column {
-  margin-right: auto;
 }
 
-.footer__columns_content_hours {
+.footer__column_content_hours {
   margin-left: auto;
 }
 
-.footer__columns_content_social {
+.footer__column_content_social {
   margin-left: 100px;
 }
 
 .footer__logo {
-  width: 153px;
+  width: 57px;
+  height: 80px;
 }
 
 .footer__list {
@@ -438,6 +444,8 @@
 
 .footer__column-heading {
   margin: 0 0 20px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__column-link {

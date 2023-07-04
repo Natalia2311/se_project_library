@@ -18,27 +18,22 @@
             alt="Triple Peaks Library Logo"
             class="nav__logo"
           />
-        
+
           <ul class="nav__links">
             <li>
-              <a href="#staff-picks" class="nav__link"
-              >Staff picks</a>
+              <a href="#staff" class="nav__link">Staff picks</a>
             </li>
             <li>
-              <a  href="#events" class="nav__link" 
-                >Events</a>
+              <a href="#events" class="nav__link">Events</a>
             </li>
             <li>
-              <a href="#membership" class="nav__link" 
-              >Become a member</a>
+              <a href="#membership" class="nav__link">Become a member</a>
             </li>
             <li>
-              <a href="#about" class="nav__link" 
-              >About</a>
+              <a href="#about" class="nav__link">About</a>
             </li>
             <li>
-              <a href="#contacts" class="nav__link"
-              >Contacts</a>
+              <a href="#contacts" class="nav__link">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -64,7 +59,7 @@
       </header>
 
       <main class="content">
-        <section class="events">
+        <section id="events" class="events">
           <div class="events__content">
             <h2 class="events__heading">Upcoming events:</h2>
             <h3 class="events__title">
@@ -144,7 +139,7 @@
           </div>
         </section>
 
-        <section class="staff">
+        <section id="staff" class="staff">
           <h2 class="staff__title">Staff picks</h2>
           <p class="staff__subtitle">That our readers love</p>
           <ul class="staff__cards">
@@ -218,7 +213,7 @@
           </ul>
         </section>
 
-        <section class="membership">
+        <section id="membership" class="membership">
           <h2 class="membership__title">Becoming a library member is easy!</h2>
           <ul class="membership__steps">
             <li class="step">
@@ -274,7 +269,7 @@
           </ul>
         </section>
 
-        <section class="about">
+        <section id="about" class="about">
           <h2 class="about__title">About the library</h2>
           <div class="about__content">
             <p class="about__paragraph">
@@ -298,16 +293,16 @@
           <div class="about__circle"></div>
         </section>
       </main>
-      <footer class="footer" id="Contacts"> 
+      <footer id="Contacts" class="footer">
         <div class="footer__columns">
           <div class="footer__column">
             <img
-             class="footer-logo" src="images/logo_white.svg" 
-            alt="Practicum footer-logo"/>
-        
-            
+              class="footer__logo"
+              src="images/logo_white.svg"
+              alt="Triple Peaks footer-logo"
+            />
           </div>
-          </div>
+
           <div class="footer__column footer__column_content_hours">
             <h2 class="footer__column-heading">Hours</h2>
             <ul class="footer__list">
@@ -315,7 +310,7 @@
               <li class="footer__list-item">Weekends: 10am - 6pm</li>
             </ul>
           </div>
-          <div class="footer__column footer__column_social">
+          <div class="footer__column footer__column_content_social">
             <h2 class="footer__column-heading">Social Media</h2>
             <ul class="footer__list">
               <li class="footer__list-item">
@@ -324,7 +319,9 @@
                     class="footer__social-icon"
                     src="images/facebook_white.svg"
                     alt="Facebook Logo"
+                    class="footer__social-icon"
                   />
+                  Facebook
                 </a>
               </li>
               <li class="footer__list-item">
@@ -333,7 +330,9 @@
                     class="footer__social-icon"
                     src="images/instagram_white.svg"
                     alt="Instagram Logo"
+                    class="footer__social-icon"
                   />
+                  Instagram
                 </a>
               </li>
             </ul>
